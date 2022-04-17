@@ -1,0 +1,102 @@
+.HomeContainer{
+    height: 32.6rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url("https://www.gainedgeconsulting.com/wp-content/uploads/2018/06/Outsourcing.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.sectioin{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid red ; */
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.homeRight{
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.homeleft{
+    height: 100%;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+.left-content{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: rosybrown 1px solid; */
+    color: rgb(79, 57, 129);
+    font-family: 'Courier New', Courier, monospace;
+  
+    
+}
+.text{
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.stitle{
+    color: rgb(79, 57, 129);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+
+}
+/* .yashirlogo{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+   
+} */
+.discover{
+    color: rgb(27, 3, 3)!important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+
+
+}
+.homeFooter{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.ftarget{
+    height: 60%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+
+}

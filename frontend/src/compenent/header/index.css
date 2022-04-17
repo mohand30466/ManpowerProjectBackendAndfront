@@ -1,0 +1,71 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 4rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background:#fff;
+
+}
+.container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background:rgb(79, 57, 129);
+
+
+
+}
+.links{
+    color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+
+}
+
+
+
+a:-webkit-any-link {
+    color: darkgray;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auth{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background:rgb(79, 57, 129); */
+
+}
+.signIn{
+    
+    color: red;
+    height: 1.5rem;
+    width: 7rem;
+    border: 2px red solid;
+    padding-top: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+.signUp{
+   
+    color: red;
+    height: 1.5rem;
+    width: 7rem;
+    border: 2px red solid;
+    padding-top: 5px;
+    border-radius: 2px;
+    text-align: center;
+
+}
